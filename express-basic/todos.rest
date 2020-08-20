@@ -1,0 +1,35 @@
+GET http://localhost:3000/users
+
+###
+GET http://localhost:3000/users/4
+
+###
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+        "id":4 ,
+        "name": "Laila",
+        "task": "Make coffee",
+        "time" : "1 hour"
+
+}
+
+###
+PUT http://localhost:3000/users/2
+Content-Type: application/json
+
+{
+         "id": 2 ,
+        "name": "Ali",
+        "task": "Web desgin",
+        "time" : "3 days"
+}
+
+###
+DELETE http://localhost:3000/users/1
+Content-Type: application/json
+
+{
+
+}

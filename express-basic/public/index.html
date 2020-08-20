@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+	<link rel="stylesheet" type="text/css" href="./css/util.css">
+
+	<title>simpleAPI</title>
+
+</head>
+<body class="body-class">
+	<div class="bg-contact2">
+		<div class="container-contact2">
+			<div class="wrap-contact2">
+				<form class="contact2-form validate-form">
+					<span class="contact2-form-title">
+							Add New Task 
+					</span>
+
+					<button onclick="getAll()" style="color: #404040; padding-top: 13px; padding-bottom: 13px; font-family: Poppins-Medium; font-size: 16px;">Get All</button>
+					
+					<div class="wrap-input2 validate-input" data-validate="Name is required">
+						<input placeholder="Name" id="nameInput">
+					</div>
+
+					<div class="wrap-input2 validate-input" data-validate="Name is required">
+						<input placeholder="Task" id="taskInput">
+					</div>
+
+					<div class="wrap-input2 validate-input" data-validate="Name is required">
+						<input placeholder="Time" id="dateInput">
+					</div>
+					<div class="container-contact2-form-btn">
+						<div class="wrap-contact2-form-btn">
+							<div class="contact2-form-bgbtn"></div>
+								<button onclick="addNew()" class="contact2-form-btn">Add the name</button>
+						</div>
+					</div>
+					
+					<div id="theOutPut">
+						
+					</div>
+
+					<div class="container-contact2-form-btn">
+						<div class="wrap-contact2-form-btn">
+							<div class="contact2-form-bgbtn"></div>
+							<button onclick="update()" class="contact2-form-btn">Update</button>
+						</div>
+					</div>
+
+					<div class="container-contact2-form-btn">
+						<div class="wrap-contact2-form-btn">
+							<div class="contact2-form-bgbtn"></div>
+							<button onclick="remove()" class="contact2-form-btn">Remove</button>
+						</div>
+					</div>
+
+					<div class="container-contact2-form-btn">
+						<div class="wrap-contact2-form-btn">
+							<div class="contact2-form-bgbtn"></div>
+
+								<button onclick="getOnltOne()" class="contact2-form-btn">Get only one</button>
+							</div>
+						</div>
+
+				</form>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="./logic.js"></script>
+</body>
+</html>
