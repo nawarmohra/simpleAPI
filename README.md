@@ -3,10 +3,17 @@ Simple website API
 
 ###  Installation
 Install npm --npm i n 
-Install express --npm i express
 
-run npm install to install dependencies.
-$ node server.js to start up the server.
+Sudo and node
+
+npm init -y
+it will give you package.json
+
+npm and express
+it will give you package-lock.json and folder node_modules
+
+node server.js
+to start up the server.
 
 ### From GitHub
 git clone https://github.com/nawarmohra/simpleAPI.git
